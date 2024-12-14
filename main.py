@@ -86,3 +86,4 @@ async def analyze(group_by: Optional[str] = None):
             return {"mode_sentiment": mode_sentiment}
         else:
             return {"error": "No messages available for analysis"}
+
